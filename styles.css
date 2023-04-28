@@ -369,6 +369,7 @@ nav {
 
 
 @media only screen and (max-width: 568px) {
+  
   html {
     scroll-behavior: smooth; 
     width: auto;
@@ -382,10 +383,7 @@ nav {
   }
   
   nav {
-    position: fixed; 
-    top: 0; 
-    right: 0; 
-    left: 0; 
+    position:static;
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -395,12 +393,14 @@ nav {
     background-color: #343a40; 
     z-index: 100;
     width: 100vw; 
+    height: auto;
+    padding-top: 3rem;
   }
   
   #nav-brand {
     font-size: 44px; 
     font-family: arial, sans-serif; 
-    color: #ffffff; 
+    color: orangered; 
   }
   
   #nav-list {
@@ -421,6 +421,7 @@ nav {
     cursor: pointer; 
     transition: .3s ease-in-out; 
     position: relative;  
+    color: orangered; 
   }
   
   .nav-link::after {
@@ -456,7 +457,7 @@ nav {
   }
   
   #welcome-section {
-    height: 100vh;
+    height: 80vh;
     background-color: #007bff; 
     display: flex;
     flex-direction: column;
@@ -466,18 +467,17 @@ nav {
     font-size: 45px; 
     color: #ffffff; 
     text-align: center;
-    padding-top: 13rem; 
-    margin-bottom: -6rem; 
+    
   }
   
   #projects {
-    height: auto; 
     display: flex; 
     flex-direction: column; 
-    justify-content: space-evenly; 
+    justify-content: center; 
     align-items: center; 
     background-color: #f8f9fa; 
-    margin-top: 4rem;
+    margin-top: 3rem;
+    
     
   }
   
@@ -555,6 +555,8 @@ nav {
     align-content: center; 
     text-align: center; 
     background-color: #007bff;  
+    padding-top: 45px; 
+    padding-bottom: 35px; 
   }
   
   .work-grid {  
@@ -565,7 +567,7 @@ nav {
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    margin-top: 55px; 
+    margin-bottom: 15px; 
   }
   
   .work-grid img { 
