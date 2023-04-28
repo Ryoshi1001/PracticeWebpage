@@ -90,7 +90,7 @@ nav {
   align-items: center; 
 }
 
-#welcome-section h1 {
+#welcome-section-div {
   font-family: sans-serif, arial; 
   font-size: 45px; 
   color: #ffffff; 
@@ -294,9 +294,8 @@ nav {
   line-height: 3rem; 
 }
 
-#welcome-section h1 {
+#welcome-section-div {
   text-align: center; 
-  
 }
 
   #work {   
