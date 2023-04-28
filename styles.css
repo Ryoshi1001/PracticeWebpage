@@ -624,14 +624,15 @@ nav {
    justify-content: space-evenly; 
    text-align: center;  
    row-gap: 13rem; 
-    }
+  }
   
-    .website-bottom { 
+  
+  .website-bottom { 
       background-color: #17a2b8;
       height: 130px; 
       line-height: normal;
       align-items: end;
-    }
+ }
   
     .website-bottom-h1 {
      color: #343a40; 
